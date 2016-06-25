@@ -11,8 +11,9 @@ var Results = React.createClass({
 	// Here we will save states for the contents we save
 	getInitialState: function(){
 		return {
-
-
+			title: '',
+			date: '',
+			url: ''
 		}
 	},
 
